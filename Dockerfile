@@ -1,5 +1,5 @@
 # base image
-FROM node:9.6.1
+FROM aws/codebuild/nodejs:10.14.1
 
 # set working directory
 RUN mkdir /usr/src/app
