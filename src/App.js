@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+function App() {
+  const [restaurant, setRestaurant] = useState('');
+  
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Where should we eat??
+        </p>
+        <label>{restaurant}</label>
+        <br/>
+        <button onClick={() => setRestaurant(selectRestaurant)}>Pick a Restaurant!</button>
+      </header>
+    </div>
+  );
+}
+
+function selectRestaurant() {
+  let restaurants = ['Chipotle', 'Cava', 'District Taco', 'Good Greek', 'Bibimix'];
+  return restaurants[Math.floor(Math.random() * restaurants.length)];
 }
 
 export default App;

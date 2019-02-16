@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Where Should We Eat??
 
-## Available Scripts
-
-In the project directory, you can run:
+Always struggling with choosing a restaurant for you and your friends to enjoy a nice meal together? Problem solved.
 
 ### `npm start`
 
