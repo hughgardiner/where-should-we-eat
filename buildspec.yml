@@ -8,7 +8,7 @@ phases:
   build:
     commands:
       - echo Running Tests
-      - docker-compose run where-should-we-eat npm test
+      - docker-compose run where-should-we-eat npm run ci-test
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -f Dockerfile-deploy -t $IMAGE_REPO_NAME:$IMAGE_TAG .
