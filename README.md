@@ -1,6 +1,6 @@
 # Where Should We Eat??
 
-Always struggling with choosing a restaurant for you and your friends to enjoy a nice meal together? Problem solved.
+Always struggling with choosing a restaurant for you and your friends to enjoy a nice meal together? Problem solved!
 
 ### `npm start`
 
