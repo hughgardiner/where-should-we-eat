@@ -19,7 +19,7 @@ function App() {
 }
 
 function selectRestaurant() {
-  let restaurants = ['Chipotle', 'Cava', 'District Taco', 'Good Greek', 'Bibimix'];
+  let restaurants = ['Chipotle', 'Cava', 'District Taco', 'Simple Greek', 'Bibimix'];
   return restaurants[Math.floor(Math.random() * restaurants.length)];
 }
 
